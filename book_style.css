@@ -1,0 +1,118 @@
+/*---------------------------------------------------*/
+/* Fonts section */
+/*---------------------------------------------------*/
+@font-face {
+  font-family: 'TheanoModernRegular';
+  src: url('fonts/TheanoModern-Regular-webfont.eot');
+  src: url('fonts/TheanoModern-Regular-webfont.woff') format('woff'), 
+       url('fonts/TheanoModern-Regular-webfont.ttf') format('truetype'), 
+       url('fonts/TheanoModern-Regular-webfont.svg#webfontObn1Betk') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Chunk';
+  src: url('fonts/chunkfive-webfont.eot');
+  src: local('?'), url('fonts/chunkfive-webfont.woff') format('woff'), 
+       url('fonts/chunkfive-webfont.ttf') format('truetype'), 
+       url('fonts/chunkfive-webfont.svg#webfontAzRiHJA9') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+/*---------------------------------------------------*/
+/* clearfix */
+/*---------------------------------------------------*/
+.clearfix {
+  clear: both;
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*---------------------------------------------------*/
+/* main bits */
+/*---------------------------------------------------*/
+
+html {
+  box-sizing: border-box;
+  font-size:16px;
+}
+
+*, *:before, *:after {
+  box-sizing:inherit ;
+}
+
+body {
+  color: #000;
+  font-family: TheanoModernRegular, Georgia, Times, serif;
+  background:url(images/greynoise.jpg) fixed;
+}
+
+section {
+  width: 970px;
+  padding: 20px 0 30px 0;
+  border-bottom: 1px solid black;
+}
+
+#wrapper {
+  width: 970px;
+  margin: 0 auto;
+
+}
+/*---------------------------------------------------*/
+/* header section */
+/*---------------------------------------------------*/
+
+header {
+  width: 970px;
+  height: 200px;
+  border-bottom: solid 1px #000;
+}
+
+header h2 {
+  height: 180px;
+  width: 150px;
+  background: dodgerblue;
+  color: #fff;
+  float: left;
+  position: relative;
+}
+
+h2 span {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+}
+
+header h1 {
+  font-family: 'Chunk';
+  font-size: 5rem;
+  float: right;
+  margin-top: 60px;
+}
+
+.intro {
+  border-bottom: solid 1px #000;
+}
+
+.intro p {
+  column-count: 2;
+  column-gap: 45px;
+  column-rule: 1px solid #000;
+  float: left;
+}
+/*---------------------------------------------------*/
+/* Genre section */
+/*---------------------------------------------------*/
+
+
+
